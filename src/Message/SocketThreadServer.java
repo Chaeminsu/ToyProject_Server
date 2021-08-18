@@ -21,9 +21,9 @@ public class SocketThreadServer implements Working {
         try {
             ServerSocket server = new ServerSocket(PORT_NUMBER);
             while(true){
-                System.out.println("-------���� �����------");
+                System.out.println("-------Socket Wait..------");
                 Socket socket = server.accept();
-                System.out.println(socket.getInetAddress() + "�� ���� �����û�� ����");
+                System.out.println(socket.getInetAddress() + "Come on Babe");
                 try{
                     threadPool.execute(new SocketWrrapper(socket));
                 }catch(Exception e){

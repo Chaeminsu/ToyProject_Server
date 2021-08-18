@@ -1,9 +1,13 @@
 package Main;
 
+import WorkFlow.Worker;
+
 public class StartServer {
+
+    private Worker _work = new Worker();
 
     public void start()
     {
-        System.out.println("시작이에욤");
+        _work.Start();
     }
 }
