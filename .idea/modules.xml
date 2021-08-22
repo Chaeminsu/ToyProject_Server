@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/ToyProject_Server.iml" filepath="$PROJECT_DIR$/ToyProject_Server.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Server.iml" filepath="$PROJECT_DIR$/Server.iml" />
+>>>>>>> ce91066bb38da5b049149ae3a642426607319cb2
     </modules>
   </component>
 </project>
